@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+     <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg"> 
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="about.html">О КОМПАНИИ</a>
+                <a href="projects.html">ПРОЕКТЫ</a>
+                <a href="services.html">УСЛУГИ</a>
+                <a href="vacancies.html">ВАКАНСИИ</a>
+                <a href="contacts.html">КОНТАКТЫ</a>
+            </nav>
+            <div class="search-icon"> </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <div class="page-header">
+                <h1>Контакты</h1>
+                <p>Свяжитесь с ключевыми сотрудниками нашей компании</p>
+            </div>
+
+            <div class="contacts-grid">
+                
+                <div class="contact-card">
+                    <span class="contact-label">Генеральный директор</span>
+                    <h3>Талдыкин Алексей Александрович</h3>
+                    <a href="mailto:ceo@mail.ru">ceo@mail.ru</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-label">Заместитель генерального директора</span>
+                    <h3>Бадмаев Цеден Викторович</h3>
+                    <a href="mailto:cto@mail.ru">ceo2@mail.ru</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-label">Заместитель генерального директора</span>
+                    <h3>Шляхин Константин Вячеславович</h3>
+                    <a href="mailto:arch@mail.ru">ceo3@mail.ru</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-label">Начальник строительства</span>
+                    <h3>Спицын Евгений Васильевич</h3>
+                    <a href="mailto:hr@mail.ru">spicin.e.v@baltroad.ru</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-label">Главный инженер</span>
+                    <h3>Шелякин Кирилл Евгеньевич</h3>
+                    <a href="mailto:sales@mail.ru">shelyakin.k.e@baltroad.ru</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-label">Главный бухгалтер</span>
+                    <h3>Елена Васильева</h3>
+                    <a href="mailto:log@mail.ru">buh@mail.ru</a>
+                </div>
+
+            </div>
+
+            <div class="contact-action">
+                <button class="btn-contact open-modal-btn">Оставить общую заявку</button>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Связаться с нами</h2>
+        <p>Оставьте свои данные, и мы перезвоним вам в течение 15 минут.</p>
+        
+       <form id="contactForm" action="https://formspree.io/f/xpqbaepb">
+    <input type="text" name="user_name" placeholder="Имя" required> <input type="tel" name="user_phone" placeholder="Телефон" required> 
+    <textarea name="user_message" placeholder="Сообщение"></textarea> 
+    <button type="submit" class="btn-submit btn-send">ОТПРАВИТЬ</button>
+</form>
+    </div>
+</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer class="footer-card">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="Logo"></a>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="about.html">О компании</a>
+                <a href="projects.html">Проекты</a>
+                <a href="services.html">Услуги</a>
+                <a href="vacancies.html">Вакансии</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+        <div class="footer-bottom container">
+        <p>© 2015-2026 Все права защищены</p>
+        <a href="privacy.html" class="privacy-link">Политика конфиденциальности</a>
+    </div>
+    </footer>
+</body>
+</html>

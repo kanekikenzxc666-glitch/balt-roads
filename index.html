@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО "СК "Балтийские дороги" Строительство дорог, благоустройство и аренды спецтехники г. Санкт-Петербург</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg"> 
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="about.html">О КОМПАНИИ</a>
+                <a href="projects.html">ПРОЕКТЫ</a>
+                <a href="services.html">УСЛУГИ</a>
+                <a href="vacancies.html">ВАКАНСИИ</a>
+                <a href="contacts.html">КОНТАКТЫ</a>
+            </nav>
+            <div class="search-icon"> </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>КАЧЕСТВО, ПРОВЕРЕННОЕ КИЛЛОМЕТРАМИ</h1>
+            <p>Ровность. Прочность. Надёжность.</p>
+            <button class="btn-main open-modal-btn">СВЯЗАТЬСЯ С НАМИ</button>
+        </div>
+    </section>
+
+    <section class="process container">
+        <div class="section-header">
+            <h2>ПРОЦЕССЫ СТРОИТЕЛЬСТВА</h2>
+            <button class="btn-outline open-modal-btn">Оставить заявку</button>
+        </div>
+        <div class="grid">
+    <div class="card">
+        <img src="img/geo.jpg" alt="Геодезия">
+        <h3>ИНЖЕНЕРНАЯ ГЕОДЕЗИЯ</h3>
+        <p>Мы обеспечиваем полное геодезическое сопровождение объекта с применением современных высокоточных приборов. Это гарантирует безупречную точность всех измерений на каждом этапе работ.</p>
+    </div>
+    <div class="card">
+        <img src="img/org.jfif" alt="Организация">
+        <h3>ОРГАНИЗАЦИЯ РАБОТ</h3>
+        <p>Мы обеспечиваем чёткую организацию работ на всех этапах проекта — от планирования до сдачи объекта. Каждый этап выполняется в соответствии с графиком и установленными стандартами качества.</p>
+    </div>
+
+    <div class="card">
+        <img src="img/mastery.jpg" alt="Мастерство">
+        <h3>МАСТЕРСТВО УКЛАДКИ</h3>
+        <p>Доверьте работу профессионалам: мы строго соблюдаем технологии и вручную проверяем качество на каждом метре. Многолетний опыт позволяет нам выполнять задачи с максимальной точностью и надёжностью.</p>
+    </div>
+    <div class="card">
+        <img src="img/compaction.jpg" alt="Уплотнение">
+        <h3>УПЛОТНЕНИЕ ПОКРЫТИЯ</h3>
+        <p>Качественное уплотнение — залог долговечности покрытия. Мы добиваемся идеальной плотности каждого слоя, чтобы дорога служила долго и выдерживала любые нагрузки.</p>
+    </div>
+</div>
+    </section>
+
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Связаться с нами</h2>
+        <p>Оставьте свои данные, и мы перезвоним вам в течение 15 минут.</p>
+        
+       <form id="contactForm" action="https://formspree.io/f/xpqbaepb">
+    <input type="text" name="user_name" placeholder="Имя" required> <input type="tel" name="user_phone" placeholder="Телефон" required> 
+    <textarea name="user_message" placeholder="Сообщение"></textarea> 
+    <button type="submit" class="btn-submit btn-send">ОТПРАВИТЬ</button>
+</form>
+    </div>
+</div>
+<script src="script.js"></script>
+<footer class="footer-card">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="Logo"></a>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="about.html">О компании</a>
+                <a href="projects.html">Проекты</a>
+                <a href="services.html">Услуги</a>
+                <a href="vacancies.html">Вакансии</a>
+                <a href="contacts.html">Контакты</a>
+
+    </div>
+
+    <div class="footer-bottom container">
+        <p>© 2015-2026 Все права защищены</p>
+        <a href="privacy.html" class="privacy-link">Политика конфиденциальности</a>
+    </div>
+</footer>
+</body>
+</html>

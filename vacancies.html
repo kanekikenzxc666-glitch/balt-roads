@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+     <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вакансии</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg"> 
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="about.html">О КОМПАНИИ</a>
+                <a href="projects.html">ПРОЕКТЫ</a>
+                <a href="services.html">УСЛУГИ</a>
+                <a href="vacancies.html">ВАКАНСИИ</a>
+                <a href="contacts.html">КОНТАКТЫ</a>
+            </nav>
+            <div class="search-icon"> </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <div class="page-header">
+                <h1>Станьте частью команды</h1>
+                <p>Мы ищем талантливых специалистов, готовых расти вместе с нами</p>
+            </div>
+
+            <div class="vacancies-grid">
+                
+                <div class="vacancy-card">
+                    <div class="vacancy-badge">Срочно</div>
+                    <h3>Водитель категории С</h3>
+                    <div class="vacancy-info">
+                        <span><i class="icon">📍 </i> Санкт-Петербург</span>
+                        <span><i class="icon">💰</i> по итогам собеседования</span>
+                    </div>
+                    <p>Наличие водительской справки 003 В/У и справки ФЛГ. Управление грузовым автомобилем и/или специализированной техникой.</p>
+                    <button class="btn-vacancy open-modal-btn">Откликнуться</button>
+                </div>
+
+                <div class="vacancy-card">
+                    <h3>Тракторист</h3>
+                    <div class="vacancy-info">
+                        <span><i class="icon">📍 </i> Санкт-Петербург</span>
+                        <span><i class="icon">💰</i> по итогам собеседования</span>
+                    </div>
+                    <p>Знание устройства и эксплуатации тракторной техники. Осуществление работ на спецтехнике с использованием навесного оборудования.</p>
+                    <button class="btn-vacancy open-modal-btn">Откликнуться</button>
+                </div>
+
+                <div class="vacancy-card">
+                    <h3>Производитель работ/мастер</h3>
+                    <div class="vacancy-info">
+                        <span><i class="icon">📍 </i> Санкт-Петербург</span>
+                        <span><i class="icon">💰</i> по итогам собеседования</span>
+                    </div>
+                    <p>Техническое образование. Опыт работ от 2-х лет.</p>
+                    <button class="btn-vacancy open-modal-btn">Откликнуться</button>
+                </div>
+
+            </div>
+
+            <div class="benefits-card">
+                <h2>Почему стоит работать у нас?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h4>Дружный коллектив</h4>
+                        <p>Работа у нас — это профессиональный рост в окружении дружного коллектива, где ценят каждого.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4>График</h4>
+                        <p>Гибкое начало дня и возможность подобрать наиболее удобное для работы время.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4>Бонусы</h4>
+                        <p>Премии за досрочное завершение проектов.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Отклик на вакансию</h2>
+            <form id="contactForm" action="https://formspree.io/f/mnjwayry">
+                 <input type="text" name="user_name" placeholder="Ваше Имя" required> 
+                 <input type="tel" name="user_phone" placeholder="Ваш телефон" required> 
+                 <textarea name="user_message" placeholder="Расскажите немного о себе"></textarea> 
+                 <button type="submit" class="btn-submit btn-send">ОТПРАВИТЬ РЕЗЮМЕ</button>
+</form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+       <footer class="footer-card">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="Logo"></a>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="about.html">О компании</a>
+                <a href="projects.html">Проекты</a>
+                <a href="services.html">Услуги</a>
+                <a href="vacancies.html">Вакансии</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+        <div class="footer-bottom container">
+        <p>© 2015-2026 Все права защищены</p>
+        <a href="privacy.html" class="privacy-link">Политика конфиденциальности</a>
+    </div>
+    </footer>
+</body>
+</html>
